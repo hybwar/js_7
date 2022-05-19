@@ -1,16 +1,84 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
   margin: 0;
   padding: 0;
   border: 0;
@@ -19,8 +87,17 @@ time, mark, audio, video {
 }
 
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
   display: block;
 }
 
@@ -28,16 +105,20 @@ body {
   line-height: 1;
 }
 
-ol, ul {
+ol,
+ul {
   list-style: none;
 }
 
-blockquote, q {
+blockquote,
+q {
   quotes: none;
 }
 
-blockquote:before, blockquote:after,
-q:before, q:after {
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
   content: '';
   content: none;
 }
@@ -87,7 +168,7 @@ table {
 }
 
 .header__button:hover {
- 
+
   box-shadow: 1px 0px 13px 4px #d1d1d1;
   transform: scale(1.05);
 }
@@ -127,7 +208,7 @@ table {
 }
 
 .goods-item {
-  text-align:center;
+  text-align: center;
   border: 2px solid #777676;
   min-width: 150px;
   min-height: 100px;
@@ -141,7 +222,8 @@ table {
   font-weight: 700;
   color: #7c7777;
 }
-#app > main > section > div > div.goods-list > div > button {
+
+#app>main>section>div>div.goods-list>div>button {
   font-size: 12px;
   font-weight: 700;
   box-shadow: 0 2px 5px 1px rgb(33 33 33 / 35%);
@@ -155,8 +237,8 @@ table {
   color: wlack;
 }
 
-#app > main > section > div > div.goods-list > div > button:hover {
- 
+#app>main>section>div>div.goods-list>div>button:hover {
+
   box-shadow: 1px 0px 13px 4px #d1d1d1;
   transform: scale(1.05);
 }
@@ -189,4 +271,5 @@ table {
   font-weight: 700;
   color: #3b3b3b;
 }
+
 /*# sourceMappingURL=styles.css.map */
